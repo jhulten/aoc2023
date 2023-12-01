@@ -1,4 +1,6 @@
 # Initial template from asottile
+from __future__ import annotations
+
 import argparse
 
 import pytest
@@ -10,10 +12,10 @@ def compute(s: str) -> int:
 
 
 @pytest.mark.parametrize(
-    ("input_s", "expected"),
+    ('input_s', 'expected'),
     (
         # put given test cases here
-        ("", 0),
+        ('', 0),
     ),
 )
 def test(input_s: str, expected: int) -> None:
@@ -22,7 +24,7 @@ def test(input_s: str, expected: int) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("data_file")
+    parser.add_argument('data_file')
     args = parser.parse_args()
 
     with open(args.data_file) as f:
@@ -31,5 +33,5 @@ def main() -> int:
     return 0
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     exit(main())
