@@ -1,5 +1,5 @@
-# AoC 2020
+# AoC 2023
 
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/jhulten/aoc2020/main.svg)](https://results.pre-commit.ci/latest/github/jhulten/aoc2020/main)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/jhulten/aoc2023/main.svg)](https://results.pre-commit.ci/latest/github/jhulten/aoc2023/main)
 
-Advent of Code 2020
+Advent of Code 2023
