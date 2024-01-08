@@ -13,7 +13,7 @@ def compute(s: str) -> int:
     s = re.sub(r'[^0-9\n]', '', s)
     lines = s.splitlines()
     for line in lines:
-        number = int(f"{line[0]}{line[-1]}")
+        number = int(f'{line[0]}{line[-1]}')
         total += number
     return total
 
