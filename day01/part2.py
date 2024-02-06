@@ -37,7 +37,7 @@ def compute(s: str) -> int:
         print('* ', line)
         line = re.sub(r'[^0-9]', '', line)
         print('** ', line)
-        number = int(f"{line[0]}{line[-1]}")
+        number = int(f'{line[0]}{line[-1]}')
         print('*** ', number)
         total += number
     return total
